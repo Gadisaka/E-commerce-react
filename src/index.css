@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Noto+Sans:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap');
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  color: rgb(255, 255, 255);
+  font-family: "lora" , serif;
+  /* background-color: aqua; */
+  cursor: pointer;
+}
+
+
+active {
+  background: red;
+}
