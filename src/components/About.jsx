@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='flex text-black h-[1000px]'>
         {/* left */}
-        <div className='relative left-[78px] top-[150px] w-[698px] h-[704px] '>
+        <div className='relative left-[180px] top-[150px] w-[698px] h-[704px] '>
             <h1 className=' font-lora font-bold text-9xl text-[#EBEBEB]'>ABOUT US</h1>
             <div className='relative bottom-[50px] left-[10px]'>
                 <h1 className='font-lora font-bold text-[56px] text-[#741906]'>About</h1>
@@ -21,7 +21,7 @@ const About = () => {
             </div>
         </div>
         {/* right */}
-        <div className='relative top-[150px] left-[200px]'>
+        <div className='relative top-[150px] left-[600px]'>
             <img src={ab1} alt="" className='w-full h-auto '/>
             <img src={ab2} alt="" className='absolute top-0 left-0 ml-[50px]'/>
         </div>

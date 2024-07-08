@@ -10,14 +10,14 @@ const Main = () => {
                 className='w-full h-full bg-center bg-cover'
                 src={Background} alt="" />
         </div>
-        <div >
-          <div className='absolute font-lora font-bold text-[60px] text-right w-[655px] h-[164px] top-[140px] left-[780px]'>
+        <div>
+          <div className='absolute font-lora font-bold text-[60px] text-right w-[655px] h-[164px] top-[140px] left-[1200px]'>
               <h1>Find the perfect car for you at YourCar.</h1>
           </div>
-          <div className='absolute w-[395px] h-[221px] top-[330px] left-[1030px] font-lora font-bold text-[32px] text-right'>
+          <div className='absolute w-[395px] h-[221px] top-[330px] left-[1450px] font-lora font-bold text-[32px] text-right'>
             <h1>We offer a wide range of cars that cater to your needs and budget. Visit us today and drive away with your dream car!</h1>
           </div>
-          <div className='absolute top-[600px] left-[1230px] '>
+          <div className='absolute top-[600px] left-[1650px] '>
             <button className='flex flex-row items-center px-10 py-3 gap-[10px] w-[195px] h-[55px] border-[2px] rounded-lg  border-white'>
               <h1 className='font-lora font-bold text-2xl '>Discover </h1>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import car5 from "../assets/cars/car5.png"
 import carData from "../data/data.json"
+import CarActionBtns from './actionbutton/CarActionBtns';
 
 
 
@@ -72,7 +73,7 @@ const CarsSection = () => {
                 <h2 className='relative bottom-14 text-5xl text-[#741906]'>Cars</h2>
             </div>
             
-      <div className='relative top-28 slider-container px-10px '>
+      <div className=' top-28 slider-container px-10px '>
             <Slider {...settings}>
 
         {
@@ -82,12 +83,12 @@ const CarsSection = () => {
           
 
             return(
-            <div className='  text-center '>
-                <div className="relative right-9 p-[20px]  m-[40px] mb-[70px]  w-[358px] h-[520px] shadow-custom" key = {car.id}> 
-                    <div className='w-[311px] h-[160px]' ><img src={imgi} alt="Car image" /></div>
+            <div className='justify-center mx-24 text-center  '>
+                <div className=" p-[20px]  m-[40px] mb-[70px] gap-[-10px]  w-[358px] h-[520px] shadow-custom" key = {car.id}> 
+                    <div className=' h-[160px]' ><img src={imgi} alt="Car image" /></div>
                     <h3 className='font-nunito-sans font-bold text-2xl text-[#741906] '>{car.class}</h3>
                     <h1 className='font-nunito-sans font-normal text-sm text-[#232222F5] mt-2'>{car.name}</h1>
-                    <p className='w-[299px] h-[99px] font-nunito-sans font-normal text-sm text-[#232222F5] opacity-[96%] mt-12'>{car.description}</p>
+                    <p className=' h-[99px] font-nunito-sans font-normal text-sm text-[#232222F5] opacity-[96%] mt-12'>{car.description}</p>
                     <div>
                       <div className='relative 0 text-start w-[106px] h-[48px] text-[#741906] font-normal text-sm top-14'>
                         <div className='flex gap-2'>
@@ -105,10 +106,13 @@ const CarsSection = () => {
                         </svg>
                           <p> {car.luggage} luggage</p></div>
                       </div>
-                      <div className=' ml-60 flex w-[118px] h-[36px] gap-2 text-2xl  bg-[#741906] text-white rounded-[4px]'>
+                      {/* <div className=' ml-60 flex w-[118px] h-[36px] gap-2 text-2xl  bg-[#741906] text-white rounded-[4px]'>
                         <p className='w-[37px] h-[36px]'>-</p>
                         <p className='font-nunito-sans bg-white w-[37px] h-[36px] text-black'>8</p>
                         <p className='w-[37px] h-[36px]'>+</p>
+                      </div> */}
+                      <div>
+                        <CarActionBtns car={car}/>
                       </div>
                     </div>
                 </div>

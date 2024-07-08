@@ -3,7 +3,8 @@ import CarsSection from "./components/CarsSection";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
-import Carsgrid from "./components/Carsgrid"
+import Carsgrid from "./components/carsgrid";
+
 
 
 function App() {

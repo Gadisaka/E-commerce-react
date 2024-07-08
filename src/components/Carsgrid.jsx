@@ -1,6 +1,6 @@
 import React from 'react'
 
-const carsgrid = () => {
+const Carsgrid = () => {
   return (
     <div className=' bg-slate-600 w-lvw h-lvh text-black'>
         <h1>carsgrid</h1>
@@ -8,4 +8,4 @@ const carsgrid = () => {
   )
 }
 
-export default carsgrid
+export default Carsgrid
